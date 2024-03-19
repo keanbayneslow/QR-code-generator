@@ -55,7 +55,7 @@ body{
     border-radius: 5px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 2s;
+    transition: max-height 2s ease-in-out 0.5s;
 }
 
 #imgBox img {
